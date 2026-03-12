@@ -12,7 +12,7 @@
 The **Phishing URL Detection System** is a machine learning-powered web application designed to proactively identify and classify malicious web links. Built with a focus on **threat intelligence** and rapid **Indicator of Compromise (IOC)** analysis, this tool analyzes the lexical features of a URL to predict whether it is legitimate or a phishing attempt.
 
 👉 **Try the Live Application:**  
-https://huggingface.co/spaces/Arya3191/phishing-url-system
+[![Try it now](https://huggingface.co/spaces/Arya3191/phishing-url-system)](https://huggingface.co/spaces/Arya3191/phishing-url-system)
 
 ---
 
@@ -52,14 +52,18 @@ https://huggingface.co/spaces/Arya3191/phishing-url-system
 
 ## 💻 Local Installation & Setup
 
-### 1️⃣ Clone the repository
+
 
 ```bash
+1️⃣ Clone the repository
 git clone https://github.com/ARYANSINGHas22/Phishing-url-system.git
 cd Phishing-url-system
 
 2️⃣ Create a virtual environment
-python -m venv venv //activate it
+python -m venv venv
+# Activate it:
+# Windows: venv\Scripts\activate
+# Linux/Mac: source venv/bin/activate
 
 3️⃣ Install dependencies
 pip install -r requirements.txt
@@ -67,15 +71,10 @@ pip install -r requirements.txt
 4️⃣ Run the application
 gunicorn app:app
 
+'''
+
 👨‍💻 Author
-
 Aryan Singh
-
 Aspiring SOC Analyst & Security Researcher
 
-🔗 LinkedIn
-https://www.linkedin.com/in/aryan-singh-a8456528a/
-
-
-
-
+🔗[![LinkedIn Profile]https://www.linkedin.com/in/aryan-singh-a8456528a/](https://www.linkedin.com/in/aryan-singh-a8456528a/)
