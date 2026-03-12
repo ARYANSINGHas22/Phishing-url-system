@@ -28,10 +28,13 @@ To run this project locally for development or testing:
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/ARYANSINGHas22/Phishing-url-system.git](https://github.com/ARYANSINGHas22/Phishing-url-system.git)
+   ```bash
    cd Phishing-url-system
+   ```bash
    python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
    pip install -r requirements.txt
+   ```bash
    gunicorn app:app
 
   ## 🧠 Model Architecture
